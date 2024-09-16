@@ -1,0 +1,76 @@
+/* Improved styling for Snake Game */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #2C3E50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  background-color: #16A085;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  color: #fff;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+#canvas-wrap {
+  position: relative;
+}
+
+canvas {
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  background-color: #ECF0F1;
+}
+
+#overlay {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+#overlay a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #1ABC9C;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+#overlay a:hover {
+  background: #16A085;
+}
+
+.footer h4 {
+  color: #fff;
+  font-size: 1em;
+  margin-top: 30px;
+}
+
+footer {
+  margin-top: 20px;
+}
